@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  airflow:
+    build: ./Airflow/.
+    ports:
+      - "8080:9000"
+  sql:
+    build: ./SQL/.
+    ports:
+      - "8080:9001"
+  spark:
+    build: ./Spark/.
+    ports:
+      - "8080:9002"

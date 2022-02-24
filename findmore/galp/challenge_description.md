@@ -3,14 +3,12 @@
 ## Description
 
 Galp is going to open a new store in New York City and our team needs to create a new
-pipeline to ingest all the generated transactions to our data lake. As the local currency (dollars)
-is different, we need to use a Rest API to do the exchange rate to euros. Airflow will be used
+pipeline to ingest all the generated transactions to our data lake. As the local currency (dollars) is different, we need to use a Rest API to do the exchange rate to euros. Airflow will be used
 for the store ingestion and NiFi will be used to get the dollar / euro exchange rate.
 
 ## Airflow
-We need to ingest all transactions from the new store in New York. The data is locally stored
-on a database (MySQL). Once a day, Airflow pipeline will read the data for the previous day
-and save it on Galp’s data lake.
+We need to ingest all transactions from the new store in New York. The data is locally stored on a database (MySQL). Once a day, Airflow pipeline will read the data for the previous day and save it on Galp’s data lake.
+
 All transactions table data format:
 
 <table>
@@ -171,3 +169,13 @@ _Note: For all exercises keep in mind the data lake structure._
 
 ## Appendix
 To create an Airflow cluster use Docker with the image “apache/airflow:1.10.15”.
+
+## Extra Questions
+1. What is a normalized data in database context? 
+A:
+
+2. What is the difference between Union vs Union All keywords in SQL?
+A:
+
+3. The Join operation in Spark is performative? Is there another better solution for the operation?
+A:
