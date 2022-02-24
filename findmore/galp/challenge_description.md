@@ -88,22 +88,22 @@ The table shown below store all the readings of a set of sensors in a refinery
 Write the SQL statements that allow you to answer the following questions:
 
 1. Total number of rows: 
-[Link to Answer_1](./SQL/answer_1.sql)
+[Link to Answer_1](./SQL/queries/answer_1.sql)
 
 2. Number of distinct sensors present on the database: 
-[Link to Answer_2](./SQL/answer_2.sql)
+[Link to Answer_2](./SQL/queries/answer_2.sql)
 
 3. Number of rows for the sensor PPL340: 
-[Link to Answer_3](./SQL/answer_3.sql)
+[Link to Answer_3](./SQL/queries/answer_3.sql)
 
 4. The number of rows by year for the sensor PPL340: 
-[Link to Answer_4](./SQL/answer_4.sql)
+[Link to Answer_4](./SQL/queries/answer_4.sql)
 
 5. Average number of readings by year for the sensor PPL340: 
-[Link to Answer_5](./SQL/answer_5.sql)
+[Link to Answer_5](./SQL/queries/answer_5.sql)
 
 6. For PPL340, Identify the years in which the number of readings is less than the average: 
-[Link to Answer_6](./SQL/answer_6.sql)
+[Link to Answer_6](./SQL/queries/answer_6.sql)
 
 ## Spark
 

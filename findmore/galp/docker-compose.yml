@@ -6,9 +6,23 @@ services:
       - "8080:9000"
   sql:
     build: ./SQL/.
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
-      - "8080:9001"
+      - "3306:3036"
+    volumes:
+      db-volume: /var/lib/mysql
   spark:
     build: ./Spark/.
     ports:
       - "8080:9002"
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+
+volumes:
+  db-volume:
