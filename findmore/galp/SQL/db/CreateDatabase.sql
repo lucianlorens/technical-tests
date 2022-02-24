@@ -8,7 +8,8 @@ CREATE TABLE new_york_products(
     cliente_id LONG,
 )
 
-INSERT INTO new_york_products('1970-01-01 00:00:01' , 'product_id_', 'product_name_', 42.42, 12344321)
+INSERT INTO new_york_products('2020-01-01 00:00:01' , 'product_id_', 'product_name_', 42.42, 12344321)
+
 
 CREATE TABLE sensors (
     name VARCHAR(200), -- Sensor name
