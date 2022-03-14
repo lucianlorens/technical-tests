@@ -9,7 +9,7 @@ object scriptSpark {
 
     val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
     
-
+    dbConnection.
 
     print("Total number of rows:")
     print( df.count() )

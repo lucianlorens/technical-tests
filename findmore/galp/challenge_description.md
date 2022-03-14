@@ -108,7 +108,7 @@ Write the SQL statements that allow you to answer the following questions:
 ## Spark
 
 Answer the qestions from the previous exercise (SQL) using any Apache Spark API:
-[Link to Jupyter Notebook](./Spark/)
+[Link to Jupyter Notebook](./Spark/Python/pyspark_notebook.ipynb)
 
 
 ## Bash
